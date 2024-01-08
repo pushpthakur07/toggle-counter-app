@@ -140,21 +140,21 @@ function Garage() {
       {/* <img src="../logo192.png" alt="logo" /> */}
       {/* <PlayButton movieName="Kiki's Delivery Service" />
       <UploadButton /> */}
-     <div class="light_setng bg-stone-300 rounded-xl relative w-52 h-52 left-11 top-11 dflex justify-center border-solid border-8 border-lime-100">
+     <div class="light_setng bg-stone-300 rounded-xl relative w-52 phn:w-20 h-52 phn:h-20 left-11 top-11 dflex justify-center border-solid border-8 border-lime-100">
         <div
-         class="light_btn switch shadow-inner block rounded-2xl box-content relative w-24 h-8 p-0.5 mr-2.5 mb-2.5 cursor-pointer" onClick={handleToggle}>
+         class="light_btn switch shadow-inner block rounded-2xl box-content relative w-24 phn:w-12 h-8 phn:h-4 p-0.5 mr-2.5 mb-2.5 cursor-pointer" onClick={handleToggle}>
         <span class="switch-label bg-customLime" data-on="On" data-off="Off"></span> 
-          <span class="switch-handle absolute w-7 h-7 left-1 top-1"></span>
+          <span class="switch-handle absolute w-7 phn:w-[15px] h-7 phn:h-[15px] left-[67px] phn:left-[30px] top-1 phn:top-[3px]"></span>
         </div>
         <div className="option-adult flex pointer-events-none">
-              <button className="arrow-down arw-cmn cursor-pointer w-25 h-25" onClick={decrementCounter}></button>
+              <button className="arrow-down arw-cmn cursor-pointer w-25 phn:w-[20px] h-25 phn:h-[20px]" onClick={decrementCounter}></button>
               {/* <input type="text" value={counter}/> */}
-              <button className="arrow-up arw-cmn cursor-pointer w-25 h-25" onClick={incrementCounter}></button>
+              <button className="arrow-up arw-cmn cursor-pointer w-25 phn:w-[20px] h-25 phn:h-[20px]" onClick={incrementCounter}></button>
           </div>
       </div>
 
     
-  <div class="bulb-container absolute top-0 dflex w-52 h-64 left-[31%] z-10">
+  <div class="bulb-container absolute top-0 dflex w-52  h-64  left-[31%] z-10">
     <div class="wire"></div>
     <div class="connector">
       <div class="grove"></div>

@@ -24,6 +24,15 @@ module.exports = {
       height: {
         '25': '1.563rem', // Custom height
       },
+      screens: {
+        'phn': {'max': '640px'}, // => @media (min-width: 640px) { ... }
+  
+        'tablet': {'max': '1080px'},
+        // => @media (min-width: 1024px) { ... }
+  
+        'desktop': {'max': '1140px'},
+        // => @media (min-width: 1280px) { ... }
+      },
 
     },
   },
