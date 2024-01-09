@@ -29,10 +29,9 @@ input[type="text"] { text-align: center; }
 .metal-wire:nth-child(2){ top: -7px; }
 .metal-wire:nth-child(3){ top: -13px; }
 button.arw-cmn {background: #cccccc; margin: 5px; border-radius: 5px; border: 1px solid #aaaaaa;
-	 box-shadow: 1px 2px 15px #cccccc; text-align: center; line-height: 20px; }
-button.arrow-down:before { content: ''; display: inline-block; vertical-align: middle; width: 0; height: 0; border-style: solid;
-	 border-width: 8.7px 5px 0 5px; border-color: #007bff transparent transparent transparent; }
-button.arrow-up:before { content: ""; display: inline-block; width: 0; height: 0; vertical-align: middle; border-style: solid;
+box-shadow: 1px 2px 15px #cccccc; text-align: center; line-height: 20px; }
+button.arrow-down:before {vertical-align: middle; width: 0; height: 0; border-style: solid;border-color: #007bff transparent transparent transparent; }
+button.arrow-up:before {width: 0; height: 0; vertical-align: middle; border-style: solid;
 	 border-width: 0 5px 10px 5px; border-color: transparent transparent #007bff transparent; }
 .switch {
 	background: linear-gradient(to bottom, #eeeeee, #FFFFFF 25px);

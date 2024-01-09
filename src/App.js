@@ -144,17 +144,17 @@ function Garage() {
         <div
          class="light_btn switch shadow-inner block rounded-2xl box-content relative w-24 phn:w-12 h-8 phn:h-4 p-0.5 mr-2.5 mb-2.5 cursor-pointer" onClick={handleToggle}>
         <span class="switch-label bg-customLime" data-on="On" data-off="Off"></span> 
-          <span class="switch-handle absolute w-7 phn:w-[15px] h-7 phn:h-[15px] left-[67px] phn:left-[30px] top-1 phn:top-[3px]"></span>
+          <span class="switch-handle absolute [.light_&]:left-[67px] phn:[.light_&]:left-[33px] w-7 phn:w-[15px] h-7 phn:h-[15px] left-1 phn:left-[4px] top-1 phn:top-[3px]"></span>
         </div>
         <div className="option-adult flex pointer-events-none">
-              <button className="arrow-down arw-cmn cursor-pointer w-25 phn:w-[20px] h-25 phn:h-[20px]" onClick={decrementCounter}></button>
+              <button className="before:border-custom phn:before:border-custom-mobile dflex justify-center arrow-down arw-cmn cursor-pointer w-25 phn:w-[20px] h-25 phn:h-[20px]" onClick={decrementCounter}></button>
               {/* <input type="text" value={counter}/> */}
-              <button className="arrow-up arw-cmn cursor-pointer w-25 phn:w-[20px] h-25 phn:h-[20px]" onClick={incrementCounter}></button>
+              <button className="before:block dflex justify-center arrow-up arw-cmn cursor-pointer w-25 phn:w-[20px] h-25 phn:h-[20px]" onClick={incrementCounter}></button>
           </div>
       </div>
 
     
-  <div class="bulb-container absolute top-0 dflex w-52  h-64  left-[31%] z-10">
+  <div class="bulb-container absolute top-0 dflex w-52 h-64 left-[31%] z-10">
     <div class="wire"></div>
     <div class="connector">
       <div class="grove"></div>
@@ -171,6 +171,13 @@ function Garage() {
 
     </div>
     <div className='extra'>
+    <div class="group">
+  <h4>Spencer Sharp</h4>
+  <svg class="hidden group-has-[a]:block">
+   
+  </svg>
+  <p>Product Designer at </p>
+</div>
     <Garage />
     {nw}
     {re}
