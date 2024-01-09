@@ -102,3 +102,8 @@ button.arrow-up:before {width: 0; height: 0; vertical-align: middle; border-styl
     transform: rotate(360deg);
   }
 }
+@media only screen and (max-width: 767px) {
+.ticket-options{
+	background-position: -350px center;
+}
+}

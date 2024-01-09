@@ -147,9 +147,9 @@ function Garage() {
           <span class="switch-handle absolute [.light_&]:left-[67px] phn:[.light_&]:left-[33px] w-7 phn:w-[15px] h-7 phn:h-[15px] left-1 phn:left-[4px] top-1 phn:top-[3px]"></span>
         </div>
         <div className="option-adult flex pointer-events-none">
-              <button className="before:border-custom phn:before:border-custom-mobile dflex justify-center arrow-down arw-cmn cursor-pointer w-25 phn:w-[20px] h-25 phn:h-[20px]" onClick={decrementCounter}></button>
+              <button className="phn:scale-75 before:border-custom phn:before:border-custom-mobile dflex justify-center arrow-down arw-cmn cursor-pointer w-25 phn:w-[20px] h-25 phn:h-[20px]" onClick={decrementCounter}></button>
               {/* <input type="text" value={counter}/> */}
-              <button className="before:block dflex justify-center arrow-up arw-cmn cursor-pointer w-25 phn:w-[20px] h-25 phn:h-[20px]" onClick={incrementCounter}></button>
+              <button className="phn:scale-75 before:block dflex justify-center arrow-up arw-cmn cursor-pointer w-25 phn:w-[20px] h-25 phn:h-[20px]" onClick={incrementCounter}></button>
           </div>
       </div>
 

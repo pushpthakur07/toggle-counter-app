@@ -27,9 +27,6 @@ module.exports = {
       borderWidth: {
         'custom': '8.7px 5px 0 5px', // Define a custom border width
       },
-      borderWidth: {
-        'custom-mobile': '6.7px 4px 0 4px', // Define a custom border width for mobile
-      },
       screens: {
         'phn': {'max': '640px'}, // => @media (min-width: 640px) { ... }
   
