@@ -93,7 +93,18 @@ button.arrow-up:before {width: 0; height: 0; vertical-align: middle; border-styl
 .extra {
     display: none;
 }
-
+form {
+    background: #fff;
+    position: absolute;
+    max-width: 450px;
+    right: 20px;
+    top: 20px;
+    padding: 20px 20px;
+}
+form input[type="text"] {
+    border: 1px solid #999;
+    color: #ccc;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
